@@ -1,5 +1,12 @@
+import HomeMaintainer from "@/components/Home/HomeMaintainer";
+import MainLayout from "@/layout/MainLayout";
+
 const Index = () => {
-  return <div className="bg-red-500">Home</div>
-  };
+  return (
+    <MainLayout>
+      <HomeMaintainer />
+    </MainLayout>
+  );
+};
 
 export default Index;
