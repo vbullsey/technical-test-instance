@@ -60,7 +60,7 @@ const HomeMaintainer = ({ customers }: any) => {
           <Card>
             <div className="p-6">
               <h1 className="font-bold text-lg">
-                For more content, contact with me 👀
+                If you liked, give me a job 👀
               </h1>
             </div>
           </Card>
