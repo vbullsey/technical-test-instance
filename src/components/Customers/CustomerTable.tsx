@@ -1,7 +1,7 @@
 import useCustomer from "@/hooks/useCustomer";
 import { useActions } from "@/redux/hooks";
 import { CustomerType } from "@/redux/slices/user/userType";
-import { Mask, Table } from "react-daisyui";
+import { Checkbox, Mask, Table } from "react-daisyui";
 import Loading from "../Loading/Loading";
 import UltimatePaginationBasic from "../Pagination/Pagination";
 import { tableHeadColums } from "./CustomerStatics";
@@ -41,6 +41,7 @@ const CustomerTable = () => {
             const { picture, name, email, cell, gender, location } = customer;
             return (
               <Table.Row key={i} hover className="hover:text-white">
+                <Checkbox className="bg-neutral" color="primary" />
                 <div className="flex items-center space-x-3 truncate ">
                   <Mask variant="squircle" src={picture?.thumbnail || ""} />
                   <div>
