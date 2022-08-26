@@ -1,7 +1,7 @@
 import { countTotalCountries } from "@/utils/chartsFn";
 import { useEffect, useState } from "react";
 
-const useCountries = (customers) => {
+const useCountries = (customers: any) => {
   const [dataHorizontalBar, setDataHorizontalBar] = useState();
   const [countriesWithCountData, setCountriesWithCountData] = useState([]);
   const [arrayLabels, setArrayLabels] = useState([]);
@@ -11,6 +11,7 @@ const useCountries = (customers) => {
   useEffect(() => {
     if (customers?.results) {
       const countriesWithCount = countTotalCountries(customers.results);
+      // @ts-ignore
       setCountriesWithCountData(countriesWithCount);
       // @ts-ignore
       setArrayLabels(countriesWithCount.map((country) => country.name));

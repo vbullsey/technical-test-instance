@@ -1,7 +1,7 @@
 import { countryWithMaxQuantity } from "@/utils/chartsFn";
 import React from "react";
 
-const CardInfo = ({ customers, countriesWithCountData }) => {
+const CardInfo = ({ customers, countriesWithCountData }: any) => {
   return (
     <section className="mt-4">
       <div className="container grid grid-cols-1 gap-6 md:grid-cols-2">
