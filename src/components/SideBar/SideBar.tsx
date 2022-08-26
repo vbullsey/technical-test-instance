@@ -9,7 +9,7 @@ import { motion, useAnimation } from "framer-motion";
 import { data } from "./data";
 
 const SideBar = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(true);
   const controls = useAnimation();
   const controlText = useAnimation();
   const controlTitleText = useAnimation();
@@ -52,14 +52,10 @@ const SideBar = () => {
     setActive(false);
   };
 
-  useEffect(() => {
-    showMore();
-  }, []);
-
   return (
     <motion.div
       animate={controls}
-      className="max-w-[250px] bg-secondary animate duration-300 border-r relative flex flex-col py-10 min-h-screen group"
+      className="max-w-[250px] w-[250px] bg-secondary animate duration-300 border-r relative flex flex-col py-10 min-h-screen group"
     >
       {active && (
         <BsFillArrowLeftSquareFill

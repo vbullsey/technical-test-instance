@@ -1,4 +1,4 @@
-export type ResultsUserType = {
+export type CustomerType = {
   gender: string;
   name: {
     title: string;

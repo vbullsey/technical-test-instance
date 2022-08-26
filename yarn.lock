@@ -497,6 +497,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@faker-js/faker@^7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-7.4.0.tgz#cac720d860a89d487b47e55e66a4fd114f1d3fe5"
+  integrity sha512-xDd3Tvkt2jgkx1LkuwwxpNBy/Oe+LkZBTwkgEFTiWpVSZgQ5sc/LenbHKRHbFl0dq/KFeeq/szyyPtpJRKY0fg==
+
 "@heroicons/react@^1.0.6":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.6.tgz#35dd26987228b39ef2316db3b1245c42eb19e324"
@@ -1232,6 +1237,13 @@
   version "18.0.6"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.6.tgz#36652900024842b74607a17786b6662dd1e103a1"
   integrity sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-ultimate-pagination@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@types/react-ultimate-pagination/-/react-ultimate-pagination-1.2.1.tgz#bbce4fec92c00658c543f3dac0997ba156ec69cf"
+  integrity sha512-7aqYymAorTcZ+DVPUAT0Mjm1P7DsvDfvW7MPI1VVLjqmUASdjOsORZGKyd5yYtkQ2hEaYqe9ssRM0M3wUNOPvA==
   dependencies:
     "@types/react" "*"
 
@@ -5739,7 +5751,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.8.1:
+prop-types@^15.0.0, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -5851,6 +5863,14 @@ react-redux@^8.0.2:
     hoist-non-react-statics "^3.3.2"
     react-is "^18.0.0"
     use-sync-external-store "^1.0.0"
+
+react-ultimate-pagination@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-ultimate-pagination/-/react-ultimate-pagination-1.3.0.tgz#feb4d9518e52b3915c863d4305a1190b66befdbd"
+  integrity sha512-Nvf+PjncTqBW/wHgO4FM3EX7VzrUf13CnpElREUgZloG2BiEQkGseDS2r5p3h/TIvLfLb602IeaihQFJbUSt0A==
+  dependencies:
+    prop-types "^15.0.0"
+    ultimate-pagination "1.0.0"
 
 react@^18.1.0:
   version "18.2.0"
@@ -6761,6 +6781,11 @@ typescript@^4.6.4, typescript@^4.7.2:
   version "4.7.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
   integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
+
+ultimate-pagination@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ultimate-pagination/-/ultimate-pagination-1.0.0.tgz#1f9f5465678d7410159d5a172c2013465e9bd85f"
+  integrity sha512-bJNroO5GM11McB9RJ1rHZGiXV/jU89Qwc6U5wR8jZuk0uFVajIvUDGPiROVvNMApvh7Ij3cPoeG5V3UlF4GvOA==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"

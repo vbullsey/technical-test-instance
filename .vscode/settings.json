@@ -25,7 +25,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.exclude": {
-    "": true
+    "**/.next": true
   },
   "search.useIgnoreFiles": false
 }
