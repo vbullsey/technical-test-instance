@@ -18,7 +18,7 @@ const CustomerTable = () => {
   if (error) {
     return (
       <h1 className="text-md font-bold">
-        Error from the API, please try again! 😵
+        Error from the API, please reload the page and try again! 😵
       </h1>
     );
   }

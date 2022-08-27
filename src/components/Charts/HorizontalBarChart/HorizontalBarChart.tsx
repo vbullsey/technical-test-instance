@@ -32,7 +32,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: "Users amount by Country",
+      text: "Users by Country",
     },
   },
 };

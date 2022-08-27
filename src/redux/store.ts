@@ -10,6 +10,7 @@ import {
 } from "@reduxjs/toolkit";
 import { Context, createWrapper, MakeStore } from "next-redux-wrapper";
 import { userSlice } from "./slices/user";
+import { sidebarSlice } from "./slices/sidebar";
 
 export type ThunkActionType<T = Promise<void>> = ThunkAction<
   T,
@@ -27,6 +28,7 @@ export type AppDispatch = typeof store.dispatch;
 const store = configureStore({
   reducer: combineReducers({
     user: userSlice.reducer,
+    sidebar: sidebarSlice.reducer,
   }),
   middleware: [...getDefaultMiddleware()],
   devTools: process.env.NODE_ENV !== `production`,

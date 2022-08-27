@@ -2,7 +2,7 @@
 
 ## Summary
 
-Using the api https://randomuser.me/, 5,000 profiles will be generated, and on this information a dashboard will be created. This will allow you to analyze the profiles.
+Using the api https://randomuser.me/, 5,000 profiles are going to be generated, and on this information a dashboard will be created. This will allow you to analyze the profiles.
 
 ## Requirements
 

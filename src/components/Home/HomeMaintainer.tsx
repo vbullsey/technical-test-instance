@@ -5,7 +5,6 @@ import Card from "../Dashboard/Card";
 import MainTitle from "../MainTitle";
 
 import useChart from "@/hooks/useChart";
-import { SEED } from "@/constants";
 import useCountries from "@/hooks/useCountries";
 import Loading from "../Loading/Loading";
 
@@ -21,7 +20,10 @@ const HomeMaintainer = ({ customers }: any) => {
       <div className="p-8 max-w-[96rem] w-full mx-auto">
         <MainTitle>
           <h1 className="text-2xl font-normal">
-            Current Seed is <span className="font-bold">'{SEED}'</span>
+            Current Seed is{" "}
+            <span className="font-bold">
+              '{process.env.NEXT_PUBLIC_SEED || ""}'
+            </span>
           </h1>
         </MainTitle>
 

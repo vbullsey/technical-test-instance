@@ -12,7 +12,7 @@ const Index = ({ customers }: any) => {
 export async function getStaticProps() {
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_RANDOM_USER_URL}/api/?seed=${process.env.NEXT_PUBLIC_SEED}&results=5000`
+      `${process.env.NEXT_PUBLIC_RANDOM_USER_URL}/api/?seed=${process.env.NEXT_PUBLIC_SEED}&results=10`
     );
     const customers = await res.json();
 
