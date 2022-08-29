@@ -47,13 +47,13 @@ const HomeMaintainer = ({ customers }: any) => {
           </Card>
         </div>
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 mt-4">
-          <Card title="Chart Bar Demo">
+          <Card title="Demo">
             <VerticalBarChart />
           </Card>
-          <Card title="Chart Bar Demo">
+          <Card title="Demo">
             <VerticalBarChart />
           </Card>
-          <Card title="Chart Bar Demo">
+          <Card title="Demo">
             <VerticalBarChart />
           </Card>
         </div>
