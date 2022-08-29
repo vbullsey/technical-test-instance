@@ -1,5 +1,10 @@
 # Technical Instance test for frontend developer
 
+## Technologies used
+
+- Nextjs with SSR, Tailwind, DaisyUI, React-Chart-2.
+
+
 ## Summary
 
 Using the api https://randomuser.me/, 5,000 profiles are going to be generated, and on this information a dashboard will be created. This will allow you to analyze the profiles.
